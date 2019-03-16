@@ -1,0 +1,17 @@
+.RightPanel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 256px;
+    height: 100vh;
+    border-left: 1px solid rgba(34, 34, 34, 0.2);
+    background-color: #3333ce24;
+}
+
+.RightPanel .ant-select {
+    margin: 20px auto;
+}
+
+.RightPanel button {
+    margin: 20px 0;
+}

@@ -1,0 +1,69 @@
+.LeftPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid rgba(34, 34, 34, 0.2);
+    background: linear-gradient(#5151ff,#0a0acc);
+}
+
+.LeftPanel #title {
+    margin: 20px 0 30px 0;
+    font-family: "Verdana";
+    color: #fff;
+}
+
+.LeftPanel h3 {
+    margin-top: 30px;
+    color: #fff;
+}
+
+.LeftPanel form {
+    margin-top: 40px;
+}
+
+.LeftPanel form fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.LeftPanel form label{
+    margin-bottom: 10px;
+    color: #cdd4e4;
+}
+
+.LeftPanel button {
+    margin: 20px auto;
+}
+
+.LeftPanel .ant-menu {
+    background-color: #3333ce;
+    color: #d3ffd3;
+}
+
+.LeftPanel .ant-menu.ant-menu-sub.ant-menu-inline {
+    background-color: #4343f5;
+    color: #d3ffd3;
+    padding-bottom: 20px;
+}
+
+.LeftPanel .ant-menu-item-group-title
+{
+    color: #7bd2ce;
+}
+
+.LeftPanel .ant-tabs-tab-active {
+    color: #a9ece4;
+}
+
+.LeftPanel .ant-tabs-tab {
+    color: #e6e6e6;
+}
+
+.LeftPanel ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline {
+    overflow-x: hidden !important;
+}
+
