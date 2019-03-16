@@ -13,7 +13,7 @@ const router = require('./Router.js');
 
 const port = 4000;
 
-mongoose.connect("mongodb://192.168.0.106:27017/main")
+mongoose.connect("mongodb://localhost:27017/main")
     .then(() => console.log("Connected to the database."))
     .catch(error => console.log(`Connection failed: ${error} .`));
 
