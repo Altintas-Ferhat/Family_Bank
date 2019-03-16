@@ -1,5 +1,6 @@
 {
   "name": "transfers",
+  "author": "Altintas Ferhat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
