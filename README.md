@@ -1,7 +1,7 @@
 
 Prerequisite:
 
-You need to set up MongoDB in order to use this application
+You need to have Node JS installed on your computer and also you need to set up MongoDB in order to use this application
 
 Installation:
 
